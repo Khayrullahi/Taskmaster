@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #fff;
+    color: #111;
+    font-family: "Poppins" sans-serif;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* header */
+  header {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .logo-container img {
+    width: 50px;
+    height: 50px;
+  }
+  .nav-lists {
+    display: flex;
+    gap: 1rem;
+  }
+  .nav-list {
+    font-size: 1.2rem;
+  }
+  /* header */
+  /* hero */
+  .hero-container{
+    /* margin-top: 4rem; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+  .text-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .text-content img{
+    width: 30%;
+  }
+  .text-title{
+    font-size: 80px;
+    font-weight: 700;
+  }
+  .text-desc{
+    text-align: center;
+    line-height: 1.5;
+    max-width: 400px;
+    font-size: 1.2rem;
+  }
+  .text-btn{
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    padding: 15px 18px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .form-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 50px;
+  }
+  form h2{
+    text-align: center;
+  }
+  .input-container{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .input-container input{
+    padding: 12px 15px;
+  }
+  .create-btn{
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    padding: 15px 18px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  /* hero */
+  @media (max-width: 768px) {
+    .hero-container{
+      flex-direction: column;
+    }
+  }
